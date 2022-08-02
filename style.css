@@ -1,0 +1,112 @@
+:root {
+  --primary: #ffffff;
+  --secondary: #fdbf4e;
+  --blue: #023048;
+  --red: #d12336;
+}
+/* Set Body Background Color & Font  */
+body {
+  background-color: var(--secondary);
+  color: #ffffff;
+  font-family: "Proxima Nova", Verdana, "Avenir Next";
+}
+
+/* This is a Div Container of my Stopwatch  */
+.my-stopwatch {
+  margin-top: 30px;
+  background-color: var(--blue);
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0px 30px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #607d8b;
+}
+
+/* Heading That Shows my Name  */
+h1 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  line-height: 59px;
+  padding: 0 64px;
+  margin: 0;
+}
+
+/* This is a Div where a Circle is Created with hight & width of 270px */
+.circle-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  width: 270px;
+  border: 2px solid;
+  border-radius: 50%;
+  color: var(--secondary);
+}
+
+/* This is a Time Text where it is placed under the circle */
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+/* THis is a Yellow Color for Highlight my name */
+.yellow {
+  font-weight: 900;
+  color: var(--secondary);
+  text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+/* This is a div of Control Buttons where i will control the stopwatch.  */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+/* Default Button */
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+/* Play Button for Start our Stopwatch,  */
+#playBtn {
+  display: block;
+}
+/* Pause Button for Pause our Stopwatch, Initially it is not shown because i will show this Button when we click play button. */
+#pauseBtn {
+  display: none;
+}
+
+/* Responsive Css For Mobile */
+@media screen and (max-width: 720px) {
+  .my-stopwatch {
+    display: flex;
+    width: 80%;
+    margin-top: 75px;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    min-height: 900px;
+    justify-content: space-evenly;
+  }
+  .circle-time {
+    height: 250px;
+    width: 250px;
+  }
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 40px;
+  }
+}
