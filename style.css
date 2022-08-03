@@ -98,6 +98,7 @@ button {
   .my-stopwatch {
     display: flex;
     width: 80%;
+    height:500px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
