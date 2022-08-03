@@ -90,23 +90,39 @@ button {
 
 /* Responsive Css For Mobile */
 @media screen and (max-width: 720px) {
+  h1 {
+    font-size: 32px;
+    padding: 0px;
+  }
+
   .my-stopwatch {
     display: flex;
     width: 80%;
-    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
     align-items: center;
     flex-direction: column;
-    min-height: 900px;
+    /* min-height: 900px; */
     justify-content: space-evenly;
   }
   .circle-time {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
   }
   .time {
     font-family: "Roboto Mono", monospace;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 28px;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+  #playBtn,
+  #pauseBtn,
+  #resetButton {
+    width: 50px;
   }
 }
