@@ -1,8 +1,8 @@
 # Stopwatch By Mohit Goyal - Coding Ninjas <br>
 ## Links: <br>
-Online Working Project - https://stopwatch.mohitgoyal.me/<br>
+Online Working Project - https://stopwatch.mohitgoyal.in/<br>
 Video Explanation Link  - https://youtu.be/bVa3sA6jTRg <br>
-GitHub Repo Link - https://github.com/Mohit1108/stopwatch.mohitgoyal.me/ <br>
+GitHub Repo Link - https://github.com/Mohit1108/stopwatch.mohitgoyal.in/ <br>
 
 ## Screenshots <br>
 ## Preview <br>
