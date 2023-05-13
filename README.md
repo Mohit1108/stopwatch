@@ -1,7 +1,4 @@
 # Stopwatch By Mohit Goyal - Coding Ninjas <br>
-## Links: <br>
-
-## Screenshots <br>
 ## Preview <br>
   <img src="https://github.com/Mohit1108/stopwatch.mohitgoyal.me/blob/main/assets/screenshot-stopwatch.jpg?raw=true" alt="Stopwatch Screenshot" srcset=""> <br>
 ## 1. HTML CODE <br>
